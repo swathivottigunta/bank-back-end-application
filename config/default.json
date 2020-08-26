@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://swathi:swathi@worldwidebank@cluster0.neokp.mongodb.net/bank?retryWrites=true&w=majority",
+  "jwtSecret": "mysecret"
+}
