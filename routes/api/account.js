@@ -187,7 +187,7 @@ router.put(
       await account.save(opts);
 
       let transaction = new Transaction({
-        toAccount: req.params.accountNumber,
+        fromAccount: req.params.accountNumber,
         amount: convertedAmount,
         type: 'withdraw',
         date: moment().format('YYYY-MM-DD hh:mm:ss'),
